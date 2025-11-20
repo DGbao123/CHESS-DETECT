@@ -1,19 +1,15 @@
 # Các thư viện chính
-ultralytics
 streamlit
-pandas
+streamlit-elements
 streamlit-webrtc
-av
+streamlit-autorefresh
 opencv-python-headless
-firebase-admin
-threading
-streamlit_webrtc
-streamlit_autorefresh
-time
-PIL
+pillow
 numpy
-datetime
-streamlit_elements
+pandas
+ultralytics
+firebase-admin
+av
 # --- Sửa lỗi xung đột ---
 
 # # 1. Sửa lỗi xung đột Protobuf (do ultralytics và streamlit gây ra)
