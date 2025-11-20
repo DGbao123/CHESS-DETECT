@@ -6,6 +6,14 @@ streamlit-webrtc
 av
 opencv-python-headless
 firebase-admin
+threading
+streamlit_webrtc
+streamlit_autorefresh
+time
+PIL
+numpy
+datetime
+streamlit_elements
 # --- Sửa lỗi xung đột ---
 
 # # 1. Sửa lỗi xung đột Protobuf (do ultralytics và streamlit gây ra)
