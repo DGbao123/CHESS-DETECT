@@ -1,14 +1,14 @@
 # Các thư viện chính
 streamlit
-streamlit-elements
+ultralytics
 streamlit-webrtc
 streamlit-autorefresh
+streamlit-elements
+requests
 opencv-python-headless
-pillow
 numpy
+Pillow
 pandas
-ultralytics
-firebase-admin
 av
 # --- Sửa lỗi xung đột ---
 
