@@ -18,7 +18,7 @@ from streamlit_elements import elements, mui, html
 #connect firebase google
 @st.cache_resource
 def init_firebase():
-    SERVICE_ACCOUNT_PATH = r"D:\MINDX\YOLO_projects\check-detect-80389-firebase-adminsdk-fbsvc-3786272c2d.json"
+    SERVICE_ACCOUNT_PATH = r"check-detect-80389-firebase-adminsdk-fbsvc-3786272c2d.json"
     cred = credentials.Certificate(SERVICE_ACCOUNT_PATH)
     firebase_admin.initialize_app(cred, {
         'databaseURL': 'https://check-detect-80389-default-rtdb.firebaseio.com/'
@@ -54,7 +54,7 @@ st.set_page_config(
 st.title("CHESS DETECT ♘")
 st.write("Ứng dụng này giúp bạn ghi lại các nước cờ một cách tự động.")
 # ---- Lựa chọn Model ----
-model_path = 'runs/detect/chess_model5/weights/best.pt'  # Mặc định dùng model 'n'
+model_path = 'best.pt'  # Mặc định dùng model 'n'
 # # (Tùy chọn): Bạn có thể cho phép người dùng upload model
 # # uploaded_model = st.file_uploader("Hoặc tải lên file model (.pt) của bạn", type="pt")
 # # if uploaded_model:
